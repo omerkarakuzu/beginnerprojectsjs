@@ -241,6 +241,7 @@ body
 {
      width: 100%;
      height: 50px;
+     resize: horizontal;
      font-size: 17px;
      padding: 0 15px;
      outline: none;
@@ -252,7 +253,7 @@ body
 {
     padding: 8px 15px;
     height: 150px;
-    resize: none;
+    resize: vertical;
      
 }
 .content form button
