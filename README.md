@@ -13,9 +13,9 @@
 
 | Kaynak Kodu |Görsel
 | ------------- | -------------
- [Not Tutma Sitesi](https://github.com/omerkarakuzu/beginnerprojectsjs/tree/main/notalmajs)  |<img src="https://user-images.githubusercontent.com/80119008/175786044-47e7ce86-15d4-4798-955c-e98e05f34489.jpg" alt="drawing" width="500"/>
- Content Cell    | <img src="![notalmajs](https://user-images.githubusercontent.com/80119008/176005361-b0ae417b-ed15-45e6-8cc6-414b967157bc.gif)
+ [Not Tutma Sitesi](https://github.com/omerkarakuzu/beginnerprojectsjs/tree/main/notalmajs)  |<img src="![notalmajs](https://user-images.githubusercontent.com/80119008/176005361-b0ae417b-ed15-45e6-8cc6-414b967157bc.gif)
 " alt="drawing" width="500"/>
+ Content Cell    | <img src="https://user-images.githubusercontent.com/80119008/175786044-47e7ce86-15d4-4798-955c-e98e05f34489.jpg" alt="drawing" width="500"/>
  Content Cell    | <img src="https://user-images.githubusercontent.com/80119008/175786044-47e7ce86-15d4-4798-955c-e98e05f34489.jpg" alt="drawing" width="500"/>
  Content Cell    | <img src="https://user-images.githubusercontent.com/80119008/175786044-47e7ce86-15d4-4798-955c-e98e05f34489.jpg" alt="drawing" width="500"/>
  Content Cell    | <img src="https://user-images.githubusercontent.com/80119008/175786044-47e7ce86-15d4-4798-955c-e98e05f34489.jpg" alt="drawing" width="500"/>
