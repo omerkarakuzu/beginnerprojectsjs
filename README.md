@@ -10,6 +10,7 @@
 
 
 
+<div align="center">
 
 | Kaynak Kodu |Görsel
 | ------------- | -------------
@@ -20,4 +21,5 @@
  Content Cell    | <img src="https://user-images.githubusercontent.com/80119008/175786044-47e7ce86-15d4-4798-955c-e98e05f34489.jpg" alt="drawing" width="500"/>
 Content Cell    | <img src="https://user-images.githubusercontent.com/80119008/175786044-47e7ce86-15d4-4798-955c-e98e05f34489.jpg" alt="drawing" width="500"/>
 Content Cell    | <img src="https://user-images.githubusercontent.com/80119008/175786044-47e7ce86-15d4-4798-955c-e98e05f34489.jpg" alt="drawing" width="500"/>
+</div>
 
