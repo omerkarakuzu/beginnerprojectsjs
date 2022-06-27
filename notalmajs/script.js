@@ -19,20 +19,20 @@ const months = [
   "Ekim",
   "Kasım",
   "Aralık",
-];
-const notes = JSON.parse(localStorage.getItem("notes") || "[]");
+]; // Id degil ay olarak gostermek icin gereken array
+const notes = JSON.parse(localStorage.getItem("notes") || "[]"); //localStorage'daki verileri array'e atama
 
 let isUpdate = false,
   updateId;
 
 addBox.addEventListener("click", () => {
-  titleTag.focus();
+  titleTag.focus(); // Not eklendikten sonra baslik sekmesine focuslanma(imlec'i getirme)
   popupBox.classList.add("show");
 });
 
 closeIcon.addEventListener("click", () => {
   isUpdate = false;
-  titleTag.value = "";
+  titleTag.value = ""; // Not eklendikten sonra onceki verilerin silinmesi
   descTag.value = "";
   addBtn.innerText = "Not Ekle";
   popupTitle.innerText = "Yeni bir not ekleyin.";
@@ -40,8 +40,7 @@ closeIcon.addEventListener("click", () => {
 });
 
 function showNotes() {
-  document.querySelectorAll(".note").forEach((note) => note.remove());
-
+  document.querySelectorAll(".note").forEach((note) => note.remove()); // Arka arkaya not eklemenin onune gecme
   notes.forEach((note, index) => {
     let liTag = `
         <li class="note">
