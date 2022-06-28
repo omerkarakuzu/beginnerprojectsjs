@@ -1,7 +1,6 @@
 let country_code = {
   AED: "AE",
   AFN: "AF",
-  XCD: "AG",
   ALL: "AL",
   AMD: "AM",
   ANG: "AN",
@@ -155,7 +154,4 @@ let country_code = {
   VND: "VN",
   VUV: "VU",
   YER: "YE",
-  ZAR: "ZA",
-  ZMK: "ZM",
-  ZWD: "ZW",
 };
