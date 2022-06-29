@@ -3,8 +3,9 @@ const dropList = document.querySelectorAll(".drop-list select"),
   toCurrency = document.querySelector(".to select"),
   getButton = document.querySelector("form button");
 for (let i = 0; i < dropList.length; i++) {
+  // 2 Listeye de country list verisini ekliyoruz.
   for (currency_code in country_code) {
-    let selected;
+    let selected; // Sayfa her yenilendiginde varsayılan olarak USD ve TRY degerleri gelecek.
     if (i == 0) {
       selected = currency_code == "USD" ? "selected" : "";
     } else if (i == 1) {
@@ -37,7 +38,7 @@ window.addEventListener("load", () => {
 });
 
 getButton.addEventListener("click", (e) => {
-  e.preventDefault();
+  e.preventDefault(); // Submit islemini engellendi
   getExchangeRate();
   console.log("tiklandi");
 });
@@ -56,7 +57,7 @@ function getExchangeRate() {
   const amount = document.querySelector(".amount input");
   const exchangeRateTxt = document.querySelector(".exchange-rate");
   let amountVal = amount.value;
-  // Kullanici deger girmezse varsayilan olarak 1 degerini veriyoruz.
+  // Girilen miktar degerine varsayilan olarak 1 degerini veriyoruz.
   if (amountVal == "" || amountVal == "0") {
     amount.value = "1";
     amountVal = 1;
@@ -66,9 +67,9 @@ function getExchangeRate() {
   fetch(url)
     .then((response) => response.json())
     .then((result) => {
-      let exchangeRate = result.conversion_rates[toCurrency.value];
+      let exchangeRate = result.conversion_rates[toCurrency.value]; //Ulke koduna gore kur getirtme islemi.
       //console.log(exchangeRate);
-      let totalExchangeRate = (amountVal * exchangeRate).toFixed(3);
+      let totalExchangeRate = (amountVal * exchangeRate).toFixed(3); // Deger ile istenilen kuru carpma.
       //console.log(totalExchangeRate);
       exchangeRateTxt.innerHTML = `${amountVal} ${fromCurrency.value}  = ${totalExchangeRate} ${toCurrency.value}`;
     })
