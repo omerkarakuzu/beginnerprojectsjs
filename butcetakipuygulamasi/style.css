@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body
+{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+  place-items: center;
+  overflow: hidden;
+  font-family:'Poppins',sans-serif;
+    
+}
+
+.budget-tracker
+{
+    border-collapse: collapse;
+    min-width: 750px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+
+   
+}
+
+.budget-tracker *
+{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.budget-tracker th
+{
+    
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 2px solid #174ea6;
+    padding-bottom:30px;
+    padding-top: 30px;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.budget-tracker td{
+    padding-top: 10px;
+}
+.budget-tracker thead tr th
+{
+    text-align: center;
+}
+
+.input, .delete-entry
+{
+    height: 30px;
+    font-size: 13px;
+    padding: 0 10px;
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input:focus
+{
+    border-color: #858585 ;
+}
+
+.delete-entry
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    background:none;
+    color: red;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+.delete-entry:hover
+{
+   
+    background: rgba(255, 0,0,0.1);
+}
+
+.controls, .summary
+{
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(248, 246, 246);
+  border-radius: 7px;
+  border-style: none;
+
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+
+  padding: 5px 18px ;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
